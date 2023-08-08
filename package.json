@@ -1,6 +1,6 @@
 {
   "name": "cryptosolve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cryptographically secure 'scavenger hunt'-style library",
   "main": "dist/index.js",
   "scripts": {
