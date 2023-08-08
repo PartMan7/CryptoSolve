@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createClient = void 0;
-const utils_1 = require("utils");
+const utils_1 = require("./utils");
 class Hunt {
     constructor(huntJSON, normalizeOverride) {
         var _a;

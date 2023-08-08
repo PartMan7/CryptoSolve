@@ -1,3 +1,3 @@
-export * as Utils from 'utils';
-export { createShareable as createServer } from 'server';
-export { createClient } from 'client';
+export * as Utils from './utils';
+export { createShareable } from './server';
+export { createClient } from './client';

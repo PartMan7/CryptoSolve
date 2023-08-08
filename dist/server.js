@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createShareable = void 0;
-const utils_1 = require("utils");
+const utils_1 = require("./utils");
 function createShareable(pairs, output, normalize = 'id') {
     const normalizer = typeof normalize === 'function' ? normalize : (0, utils_1.getNormalizer)(normalize);
     const nStr = typeof normalize === 'function' ? 'custom' : normalize;
